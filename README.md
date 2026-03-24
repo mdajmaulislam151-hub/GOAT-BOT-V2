@@ -1,274 +1,95 @@
-  <div align="center">
+<div align="center"><img src="https://i.ibb.co/d4Brrz06/image0.jpg" width="100%" style="border-radius:20px; backdrop-filter: blur(15px); box-shadow:0 0 50px rgba(0,255,255,0.6);" />✨ 𝐆𝐎𝐀𝐓 𝐁𝐎𝐓 𝐕𝟐 ✨
 
-  <img src="https://files.catbox.moe/tkt4ym.jpg" width="100%" style="border-radius: 10px;"/>
+💎 𝗠𝗢𝗗𝗜𝗙𝗜𝗘𝗗 𝗕𝗬 𝗔𝗟𝗩𝗜-𝗞𝗜𝗡𝗚 💎
 
-</div>
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2500&pause=700&color=00F0FF&center=true&vCenter=true&width=700&lines=⚡+MULTI-DEVICE+MESSENGER+BOT;🔥+PREMIUM+AUTOMATION+SYSTEM;🧠+AI+POWERED+COMMANDS;🚀+ULTRA+FAST+PERFORMANCE;💎+ADVANCED+ADMIN+TOOLS" /><br><!-- Animated Gradient Line --><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=120&section=header"/></div>
 
-  # 𝐆𝐎𝐀𝐓 𝐁𝐎𝐓 𝐕𝟐 
-𝐌𝐎𝐃𝐈𝐅𝐈𝐄𝐃 𝐁𝐘 𝐀𝐋𝐕𝐈-𝐊𝐈𝐍𝐆
-  
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00F0FF&center=true&vCenter=true&width=435&lines=MESSENGER+MULTI-DEVICE+BOT;FUN+GOAT+BOT+;POWERFUL+ADMIN+TOOLS;24%2F7+ACTIVE+SERVICE;This+repository+is;controlled+by+ALVI-KING.)](https://git.io/typing-svg)
+🌌 𝚂𝚝𝚊𝚝𝚜 𝙳𝚊𝚜𝚑𝚋𝚘𝚊𝚛𝚍
 
-  <p align="center">
-    <a href="https://github.com/alvi-king/GOAT-BOT-V2">
-      <img title="Stars" src="https://img.shields.io/github/stars/alvi-king/GOAT-BOT-V2?color=cyan&style=for-the-badge&logo=github">
-    </a>
-    <a href="https://github.com/alvi-king/GOAT-BOT-V2/forks">
-      <img title="Forks" src="https://img.shields.io/github/forks/alvi-king/GOAT-BOT-V2?color=cyan&style=for-the-badge&logo=github">
-    </a>
-    <a href="https://github.com/alvi-king/GOAT-BOT-V2">
-      <img title="Repo Size" src="https://img.shields.io/github/repo-size/alvi-king/GOAT-BOT-V2?style=for-the-badge&color=cyan">
-    </a>
-    <a href="https://profile-counter.glitch.me/SILENT-SOBX-MD/count.svg">
-       <img src="https://img.shields.io/badge/VISITORS-Active-blue?style=for-the-badge&logo=google-analytics">
-    </a>
-    <p align="center">
- 𝚅𝙸𝚂𝙸𝚃𝙾𝚁𝚂 𝙲𝙾𝚄𝙽𝚃<br>
- <img src="https://komarev.com/ghpvc/?username=alvi-king&label=Visitors&color=blue&style=flat" alt="Visitors">
-  </p>
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=alvi-king&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=00f0ff" width="49%"/><img src="https://github-readme-streak-stats.herokuapp.com/?user=alvi-king&theme=tokyonight&hide_border=true&background=0d1117&ring=00f0ff&fire=00f0ff" width="49%"/></div>
 
-  <hr>
+📊 𝚁𝚎𝚙𝚘 𝙰𝚗𝚊𝚕𝚢𝚝𝚒𝚌𝚜
 
-  <a href="https://www.youtube.com/@SAUniqueBro">
-    <img src="https://img.shields.io/badge/WATCH%20TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Video">
-  </a>
-  <a href="https://github.com/alvi-king/GOAT-BOT-V2/fork">
-    <img src="https://img.shields.io/badge/FORK%20NOW-333?style=for-the-badge&logo=github&logoColor=white" alt="Fork Repo">
-  </a>
+<div align="center"><img src="https://img.shields.io/github/stars/alvi-king/GOAT-BOT-V2?style=for-the-badge&logo=github&color=00ffff"/>
+<img src="https://img.shields.io/github/forks/alvi-king/GOAT-BOT-V2?style=for-the-badge&logo=github&color=00ffff"/>
+<img src="https://img.shields.io/github/repo-size/alvi-king/GOAT-BOT-V2?style=for-the-badge&color=blueviolet"/>
+<img src="https://img.shields.io/github/last-commit/alvi-king/GOAT-BOT-V2?style=for-the-badge&color=purple"/></div>
 
-</div>
+👁️ 𝚅𝚒𝚜𝚒𝚝𝚘𝚛𝚜
 
----
+<div align="center"><img src="https://komarev.com/ghpvc/?username=alvi-king&label=🔥+VISITORS&color=blueviolet&style=for-the-badge"/></div>
 
-### ❖ **ABOUT THE PROJECT**
-> 🕋✨ **GOAT-BOT-V2** is a versatile Messenger automation tool designed to elevate your chat experience. It helps you find, download, and manage resources like **Logos, Stickers, Videos, Movies, Ai, custom chat, image gen** and much more efficiently.
-> 
-> *Based on the original work by [Goat-Bot-v2](https://github.com/ntkhang03/Goat-Bot-V2)*
+🎬 𝙿𝚛𝚎𝚟𝚒𝚎𝚠 𝚂𝚎𝚌𝚝𝚒𝚘𝚗
 
-Modified By Alvi-King
----
+<div align="center"><img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="45%" style="border-radius:15px"/>
+<img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="45%" style="border-radius:15px"/></div>
 
-### ❖ **DEPLOYMENT ZONES**
+🌗 𝙰𝚍𝚊𝚙𝚝𝚒𝚟𝚎 𝚄𝙸
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="150"><img src="https://img.shields.io/badge/HEROKU-430098?style=for-the-badge&logo=heroku&logoColor=white" width="100%"></td>
-      <td align="center" width="300">
-        <a href="https://dashboard.heroku.com/new-app?template=https://github.com/alvi-king/GOAT-BOT-V2">
-          <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/REPLIT-F26207?style=for-the-badge&logo=replit&logoColor=white" width="100%"></td>
-      <td align="center">
-        <a href="https://repl.it/github/alvi-king/GOAT-BOT-V2">
-          <img src="https://img.shields.io/badge/DEPLOY%20ON%20REPLIT-black?style=flat-square&logo=replit" alt="Deploy to Replit">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/KOYEB-121212?style=for-the-badge&logo=koyeb&logoColor=white" width="100%"></td>
-      <td align="center">
-        <a href="https://app.koyeb.com/services/deploy?type=git&repository=https://github.com/alvi-king/GOAT-BOT-V2&branch=main">
-          <img src="https://img.shields.io/badge/DEPLOY%20ON%20KOYEB-blue?style=flat-square&logo=koyeb" alt="Deploy to Koyeb">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/RAILWAY-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" width="100%"></td>
-      <td align="center">
-        <a href="https://railway.app/new">
-          <img src="https://img.shields.io/badge/DEPLOY%20ON%20RAILWAY-black?style=flat-square&logo=railway" alt="Deploy to Railway">
-        </a>
-      </td>
-    </tr>
-        <tr>
-      <td align="center"><img src="https://img.shields.io/badge/RENDER-46E3B7?style=for-the-badge&logo=render&logoColor=white" width="100%"></td>
-      <td align="center">
-        <a href="https://dashboard.render.com">
-          <img src="https://img.shields.io/badge/DEPLOY%20ON%20RENDER-black?style=flat-square&logo=render" alt="Deploy to Render">
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=alvi-king&show_icons=true&theme=default#gh-light-mode-only"/>
+<img src="https://github-readme-stats.vercel.app/api?username=alvi-king&show_icons=true&theme=tokyonight#gh-dark-mode-only"/></div>
 
----
+🚀 𝙳𝚎𝚙𝚕𝚘𝚢𝚖𝚎𝚗𝚝
 
-### ❖ **GET STARTED (MANUAL)**
+<div align="center"><a href="https://dashboard.heroku.com/new-app?template=https://github.com/alvi-king/GOAT-BOT-V2">
+<img src="https://www.herokucdn.com/deploy/button.svg">
+</a><a href="https://repl.it/github/alvi-king/GOAT-BOT-V2">
+<img src="https://img.shields.io/badge/Deploy-Replit-black?style=for-the-badge&logo=replit">
+</a><a href="https://railway.app/new">
+<img src="https://img.shields.io/badge/Deploy-Railway-black?style=for-the-badge&logo=railway">
+</a><a href="https://dashboard.render.com">
+<img src="https://img.shields.io/badge/Deploy-Render-black?style=for-the-badge&logo=render">
+</a></div>
 
-<details>
-<summary>🔎 <b>Click to View CI/CD Workflow</b></summary>
+<!-- Animated Divider --><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=100&section=header"/><h1 align="center">⚡ Advanced Features ⚡</h1><div align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=2500&pause=800&color=00F0FF&center=true&width=600&lines=AI+POWERED+COMMANDS;PREMIUM+SYSTEM+ENABLED;AUTO+RESTART+ACTIVE;DATABASE+SUPPORT+READY;LIVE+DASHBOARD+CONNECTED;ADVANCED+LOGGING+SYSTEM" /></div><br><div align="center"><img src="https://img.shields.io/badge/🤖_AI_COMMANDS-ENABLED-00f0ff?style=for-the-badge&logo=robotframework"/>
+<img src="https://img.shields.io/badge/💎_PREMIUM_SYSTEM-ACTIVE-blueviolet?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🔄_AUTO_RESTART-ONLINE-00ffcc?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🗄️_DATABASE-MongoDB_/_SQLite-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🚫_ANTI_REACT-SYSTEM-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📊_LIVE_DASHBOARD-CONNECTED-00f0ff?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/📜_LOGGING-SYSTEM-yellow?style=for-the-badge"/></div>
 
-```yaml
-name: Node.js CI
+<!-- Animated Divider --><img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00F0FF&height=100&section=header"/><h1 align="center">🎯 Command System 🎯</h1><div align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=700&color=8A2BE2&center=true&width=500&lines=SMART+COMMAND+SYSTEM;FAST+EXECUTION;PREMIUM+CONTROL+ACCESS" /></div><br><div align="center"><table>
+<tr>
+<th>⚡ Command</th>
+<th>💡 Description</th>
+</tr><tr>
+<td><code>/help</code></td>
+<td>📜 Show all commands</td>
+</tr><tr>
+<td><code>/prefix</code></td>
+<td>⚙️ Change bot prefix</td>
+</tr><tr>
+<td><code>/premium request</code></td>
+<td>💎 Request premium access</td>
+</tr><tr>
+<td><code>/update</code></td>
+<td>🚀 Update bot system</td>
+</tr></table></div><br><div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:8A2BE2&height=100&section=footer"/></div>
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+❤️ ՏᑌᑭᑭOᖇTՏ
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20.x]
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Install dependencies
-      run: npm install
-    - name: Start the bot
-      env:
-        PORT: 8080
-      run: npm start
-```
-</details>
-❖ COMMUNITY & SUPPORT
-<div align="center">
-
-<a href="https://wa.me/966505748978?text=ᴀssᴀʟᴀᴍᴜ ᴀʟᴀɪᴋᴜᴍ+ᴀʟᴠɪ+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ʙʀᴏᴛʜᴇʀ!!">
-<img src="https://img.shields.io/badge/WHATSAPP-SUPPORT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+<div align="center"><a href="https://youtube.com/@SAUniqueBro" target="_blank">
+  <img src="https://img.shields.io/badge/▶️_YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/>
+</a><a href="https://www.facebook.com/profile.php?id=100001609058878" target="_blank">
+  <img src="https://img.shields.io/badge/📘_Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+</a><a href="https://t.me/MRALVIBRO" target="_blank">
+  <img src="https://img.shields.io/badge/✈️_Telegram-Join-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
+  <a href="https://wa.me/966505748978">
+  <img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp"/>
 </a>
-
-<a href="https://m.me/ItzMeAlviOfficial/">
-<img src="https://img.shields.io/badge/MESSENGER-GROUP-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
-</a>
-
-<a href="https://youtube.com/@sauniquebro?si=ciKy8Gn_trUtTfYw">
-<img src="https://img.shields.io/badge/YOUTUBE-CHANNEL-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
-</a>
-
+</a></div><br><!-- Optional Animated Line --><div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=2500&pause=800&color=00F0FF&center=true&width=500&lines=CONNECT+WITH+US+ON+SOCIAL+MEDIA;STAY+UPDATED+WITH+LATEST+UPDATES;JOIN+THE+COMMUNITY+NOW" />
 </div>
+<div align="center"><!-- Animated Wave Background --><img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00F0FF&height=140&section=footer&animation=fadeIn"/><br><!-- Animated Typing Title --><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=26&duration=2500&pause=800&color=00F0FF&center=true&vCenter=true&width=600&lines=💎+GOAT+BOT+V2;🚀+PREMIUM+AUTOMATION+SYSTEM;🔥+POWERED+BY+ALVI-KING"/><br><br>
 
+<!-- Glass Effect Box --><div style="border-radius:15px; padding:15px; backdrop-filter: blur(10px); background: rgba(255,255,255,0.05); box-shadow:0 0 30px rgba(0,255,255,0.4); display:inline-block;">💎 <b>GOAT BOT V2</b> <br>
+Made with ❤️ by <b>ALVI-KING</b> <br><br>
 
+🚀 <b>Release:</b> 23 Feb 2026 <br><br>
 
-<a href="https://host.talkdrove.com/auth/signup?ref=9535F15A">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/GET%2520FREE%2520HOSTING-TALKDROVE-blueviolet%3Fstyle%3Dflat-square%26logo%3Dgoogle-cloud" width="300">
-</a>
-</div>
+⭐ <b>Don't forget to star the repo!</b>
 
-``
-## 📋 Essential Commands
+</div><br><br>
 
-| Command | Description | Access |
-|---------|-------------|---------|
-| `/help` | View all commands | All Users |
-| `/prefix` | View/change prefix | Group Admin |
-| `/premium request` | Request premium | All Users |
-| `/premium add` | Add premium user | Bot Admin |
-| `/threadapprove` | Manage thread approval | Bot Admin |
-| `/botlog` | Configure bot logging | Bot Admin |
-| `/sthandlers` | Access command store | All Users |
-| `/stai` | AI assistant | All Users |
-| `/streport` | Report issues | All Users |
-| `/update` | Update bot | Bot Admin |
-
----
-
-### Global Prefix System
-
-Configure prefix usage in `config.json`:
-
-```json
-{
-  "prefix": "/",
-  "usePrefix": {
-    "enable": true,                    // Global prefix requirement
-    "adminUsePrefix": {
-      "enable": true,                  // Admin prefix requirement
-      "specificUids": []               // Specific users who need prefix
-    }
-  }
-}
-```
-
-**Options:**
-- `usePrefix.enable: true` - All users must use prefix
-- `usePrefix.enable: false` - No prefix required globally
-- `adminUsePrefix.enable: true` - Admins must use prefix
-- `adminUsePrefix.enable: false` - Admins don't need prefix
-- `specificUids: ["uid1", "uid2"]` - Specific users affected by admin rules
-
-### Bot Account Configuration
-
-Login credentials are set in `config.json`:
-
-```json
-{
-  "botAccount": {
-    "email": "your_email@example.com",
-    "password": "your_password",
-    "userAgent": "Mozilla/5.0...",
-    "autoUseWhenEmpty": true
-  }
-}
-```
-
-**Note:** If `account.txt` is empty, the bot will automatically use credentials from `config.json` to fetch cookies.
-
-
----
-
-## 🚀 Features
-
-- **Modular Command System** - Easy to add/remove commands
-- **Premium System** - Advanced premium user management
-- **Fast and Scalable** - Optimized bot core for high performance
-- **Auto-restart and Watchdog** - Self-healing capabilities
-- **MongoDB/SQLite Support** - Flexible database options
-- **Dynamic Command Loader** - Hot-reload commands without restart
-- **Thread Approval System** - Control bot access to groups
-- **Anti-React System** - Advanced message management
-- **Real-time Dashboard** - Live monitoring with WebSocket
-- **Easy Deployment** - One-click deployment on Replit & Render
-- **Custom ntkhang-fca** - Optimized Facebook Chat API
-- **Bot Logging System** - Comprehensive logging configuration
-- **Prefix Management** - Global and per-thread prefix control
-- **Bio Update System** - Automatic bio updates
-- **Startup Notifications** - Configurable startup messages
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. You are free to use, modify, and distribute this software, but please maintain the original credits.
-
-✨ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:- 𝗔𝗟𝗩𝗜-𝗞𝗜𝗡𝗚  
-📜 𝗢𝗿𝗶𝗴𝗶𝗻𝗮𝗹 𝗖𝗿𝗲𝗮𝘁𝗼𝗿:- 𝗡𝗧𝗞𝗛𝗔𝗡𝗚
-
----
-
-## ❤️ Support the Project
-
-If you find this project helpful:
-- ⭐ Star this repository
-- 🍴 Fork and contribute
-- 📢 Share with others
-
-- [![Subscribe YouTube](https://img.shields.io/badge/Subscribe-SAUNIQUE%20BRO-red?style=for-the-badge&logo=youtube)](https://youtube.com/@SAUniqueBro?si=7wqJsdLBRMvWkWOU)
-- [![Follow Facebook Page](https://img.shields.io/badge/Follow-Facebook%20Page-blue?style=for-the-badge&logo=facebook)](https://www.facebook.com/profile.php?id=100001609058878)
-- [![Join Telegram](https://img.shields.io/badge/Join%20Telegram-MR%20ALVI%20BRO-blue?style=for-the-badge&logo=telegram)](https://t.me/MRALVIBRO)
-- [![Follow @ALVI-KING](https://img.shields.io/github/followers/alvi-king?label=Follow%20%40GOAT-BOT-V2&style=social)](https://github.com/alvi-king)
-
----
-
-—͟͟͞͞𝐆𝐎𝐀𝐓 𝐁𝐎𝐓 𝐕𝟐
-
-</div>
-<div align="center">
-Made with ❤️ by ALVI ISLAM.
-> Release Date : 23/02/2026 at 5.00 PM.
-
-
-
-
-<i>Don't forget to give a ⭐ if you like this bot!</i>
-</div>
+<!-- Animated Glow Line --><img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,100:8A2BE2&height=5&section=footer"/></div>
