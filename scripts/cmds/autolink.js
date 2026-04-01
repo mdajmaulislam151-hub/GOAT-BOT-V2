@@ -1,79 +1,50 @@
-const fs = require("fs");
-const { downloadVideo } = require("sagor-video-downloader");
+module.exports.config = {
+    name: "autoreact",
+    version: "4.0.0",
+    author: "Ajmaul",
+    role: 0,
+    description: "Auto react only to owner's messages",
+    category: "system",
+    countDown: 0
+};
 
-module.exports = {
-    config: {
-        name: "autolink",
-        version: "1.3",
-        author: "ALVI-BOSS",
-        countDown: 5,
-        role: 0,
-        shortDescription: "Auto-download & send videos silently (no messages)",
-        category: "media",
-    },
+const OWNER_ID = "61588349794704";
 
-    onStart: async function () {},
+let autoReactStatus = {};
 
-    onChat: async function ({ api, event }) {
-        const threadID = event.threadID;
-        const messageID = event.messageID;
-        const message = event.body || "";
+module.exports.onStart = async ({ api, event, args }) => {
+    const threadID = event.threadID;
 
-        const linkMatches = message.match(/(https?:\/\/[^\s]+)/g);
-        if (!linkMatches || linkMatches.length === 0) return;
+    // only owner can use command
+    if (event.senderID !== OWNER_ID) {
+        return api.sendMessage("❌ Only owner can use this command.", threadID);
+    }
 
-        const uniqueLinks = [...new Set(linkMatches)];
+    if (!args[0]) {
+        return api.sendMessage("Use: autoreact on / off", threadID);
+    }
 
-        api.setMessageReaction("⏳", messageID, () => {}, true);
+    const cmd = args[0].toLowerCase();
 
-        let successCount = 0;
-        let failCount = 0;
+    if (cmd === "on") {
+        autoReactStatus[threadID] = true;
+        return api.sendMessage("✅ Auto React ON (owner only)", threadID);
+    }
 
-        for (const url of uniqueLinks) {
-            try {
-                const { title, filePath } = await downloadVideo(url);
-                if (!filePath || !fs.existsSync(filePath)) throw new Error();
-
-                const stats = fs.statSync(filePath);
-                const fileSizeInMB = stats.size / (1024 * 1024);
-
-                if (fileSizeInMB > 25) {
-                    fs.unlinkSync(filePath);
-                    failCount++;
-                    continue;
-                }
-
-                await api.sendMessage(
-                    {
-                        body: `🎬 *${title || "ভিডিও"}*`,
-                        attachment: fs.createReadStream(filePath)
-                    },
-                    threadID,
-                    () => fs.unlinkSync(filePath)
-                );
-
-                successCount++;
-
-            } catch {
-                failCount++;
-                // কোনো এরর মেসেজ পাঠাবে না
-            }
-        }
-
-        const finalReaction =
-            successCount > 0 && failCount === 0 ? "✅" :
-            successCount > 0 ? "⚠️" : "❌";
-
-        api.setMessageReaction(finalReaction, messageID, () => {}, true);
-
-        // সারাংশ মেসেজ চাইলে নিচেরটা অন রাখো, না চাইলে কমেন্ট করে দিও ↓
-        if (uniqueLinks.length > 1) {
-            setTimeout(() => {
-                api.sendMessage(
-                    `📊 সারাংশ: ✅ ${successCount} সফল | ❌ ${failCount} ব্যর্থ`,
-                    threadID
-                );
-            }, 2000);
-        }
+    if (cmd === "off") {
+        autoReactStatus[threadID] = false;
+        return api.sendMessage("❌ Auto React OFF", threadID);
     }
 };
+
+module.exports.onChat = async ({ api, event }) => {
+    try {
+        const threadID = event.threadID;
+
+        // feature off
+        if (!autoReactStatus[threadID]) return;
+
+        // react only to owner's messages
+        if (event.senderID !== OWNER_ID) return;
+
+        // bot
