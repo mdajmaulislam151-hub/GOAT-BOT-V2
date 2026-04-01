@@ -2,7 +2,7 @@ module.exports = {
   config: {
     name: "adminmention",
     version: "1.3.2",
-    author: "ALVI-BOSS",
+    author: "Ajmaul",
     countDown: 0,
     role: 0,
     shortDescription: "Replies angrily when someone tags admins",
@@ -13,7 +13,7 @@ module.exports = {
   onStart: async function () {},
 
   onChat: async function ({ event, message }) {
-    const adminIDs = ["100082607436864"].map(String);
+    const adminIDs = ["61588349794704"].map(String);
 
     // Skip if sender is admin
     if (adminIDs.includes(String(event.senderID))) return;
@@ -28,7 +28,7 @@ module.exports = {
     const REPLIES = [
       "তোর সাহস তো কম না বসের নাম ধরে ডাকিস? 😩🐸",
       "বস এক আবাল আপনাকে ডাকতেছে 😂😏",
-      "আবাল তুই মেনশন দিবি না আমার বস রে 🥹",
+      "তুই মেনশন দিবি না আমার বস রে 🥹",
       "মেনশন দিছস আর বেঁচে যাবি? দারা বস রে বলতাছি 😠",
       "বস এখন বিজি আছে যা বলার আমাকে বলতে পারিস!! 😌🥱"
     ];
