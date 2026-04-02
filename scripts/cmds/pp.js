@@ -1,16 +1,16 @@
-const axios = require("axios");
 const fs = require("fs-extra");
-const request = require("request");
+const axios = require("axios");
+const path = require("path");
 
 module.exports = {
   config: {
     name: "pp",
-    version: "1.0.0",
-    author: "MOHAMMAD AKASH",
+    version: "2.0.0",
+    author: "Ajmaul",
     countDown: 3,
     role: 0,
-    shortDescription: "Facebook প্রোফাইল পিকচার দেখাবে 📸",
-    longDescription: "যেকোনো ইউজারের ফেসবুক প্রোফাইল পিকচার দেখা যাবে (নিজে, রিপ্লাই বা লিংক থেকে)।",
+    shortDescription: "Facebook profile picture 📸",
+    longDescription: "Reply / mention / link দিয়ে profile pic দেখাবে",
     category: "utility",
     guide: {
       en: "{pn} [reply/@mention/link]"
@@ -18,55 +18,55 @@ module.exports = {
   },
 
   onStart: async function ({ api, event, args, usersData }) {
-    const cachePath = __dirname + "/cache/profile.png";
-
     try {
+      const cacheDir = path.join(__dirname, "cache");
+      const filePath = path.join(cacheDir, "pp.png");
+
+      if (!fs.existsSync(cacheDir)) {
+        fs.mkdirSync(cacheDir);
+      }
+
       let uid;
 
-      // ১️⃣ রিপ্লাই করা মেসেজের ইউজারের প্রোফাইল
       if (event.type === "message_reply") {
         uid = event.messageReply.senderID;
-      }
-
-      // ২️⃣ @mention করা ইউজারের প্রোফাইল
+      } 
       else if (Object.keys(event.mentions || {}).length > 0) {
         uid = Object.keys(event.mentions)[0];
-      }
-
-      // ৩️⃣ লিংক দেওয়া থাকলে
-      else if (args[0] && args[0].includes(".com/")) {
-        const resID = await api.getUID(args[0]);
-        uid = resID;
-      }
-
-      // ৪️⃣ কিছু না দিলে নিজের প্রোফাইল
+      } 
+      else if (args[0] && args[0].includes("facebook.com")) {
+        uid = await api.getUID(args[0]);
+      } 
       else {
         uid = event.senderID;
       }
 
       const name = await usersData.getName(uid);
 
-      const imageUrl = `https://graph.facebook.com/${uid}/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
+      const url = `https://graph.facebook.com/${uid}/picture?width=2048&height=2048`;
 
-      const callback = () => {
-        api.sendMessage(
-          {
-            body: `🌸✨ ${name} এর প্রোফাইল পিকচার 👇`,
-            attachment: fs.createReadStream(cachePath)
-          },
-          event.threadID,
-          () => fs.unlinkSync(cachePath),
-          event.messageID
-        );
-      };
+      // 🔥 important fix এখানে
+      const res = await axios.get(url, { responseType: "arraybuffer" });
 
-      request(encodeURI(imageUrl))
-        .pipe(fs.createWriteStream(cachePath))
-        .on("close", callback);
+      fs.writeFileSync(filePath, Buffer.from(res.data, "utf-8"));
+
+      if (!fs.existsSync(filePath)) {
+        return api.sendMessage("❌ ছবি লোড হয় নাই!", event.threadID, event.messageID);
+      }
+
+      return api.sendMessage(
+        {
+          body: `🌸✨ ${name} এর প্রোফাইল পিকচার 👇`,
+          attachment: fs.createReadStream(filePath)
+        },
+        event.threadID,
+        () => fs.unlinkSync(filePath),
+        event.messageID
+      );
 
     } catch (err) {
       console.error(err);
-      api.sendMessage("⚠️ কিছু একটা সমস্যা হয়েছে, আবার চেষ্টা করো ভাই 😭", event.threadID, event.messageID);
+      api.sendMessage("⚠️ Error হয়েছে! আবার চেষ্টা করো 😭", event.threadID, event.messageID);
     }
   }
 };
