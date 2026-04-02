@@ -1,0 +1,45 @@
+module.exports.config = {
+  name: "info",
+  version: "1.0.0",
+  hasPermssion: 0,
+  credits: "Ajmaul",
+  description: "Show bot owner info",
+  commandCategory: "system",
+  usages: "",
+  cooldowns: 5
+};
+
+module.exports.run = async function({ api, event }) {
+  const msg = `
+╔═══════☠️═══════╗
+     𝘽𝙊𝙏 𝙊𝙒𝙉𝙀𝙍 𝙄𝙉𝙁𝙊
+╚═══════☠️═══════╝
+
+👑 𝙉𝙖𝙢𝙚: Ajmaul  
+📍 𝙁𝙧𝙤𝙢: Joypurhat  
+🎂 𝘼𝙜𝙚: 18+  
+
+━━━━━━━━━━━━━━━  
+
+🌸 Assalamualaikum 🌸  
+🤖 This bot is controlled by Ajmaul  
+
+⚡ 𝙁𝙚𝙖𝙩𝙪𝙧𝙚𝙨:  
+✔️ Auto React 😍  
+✔️ AI Chat 🤖  
+✔️ Bad Word Filter 🚫  
+✔️ Fast Response ⚡  
+
+━━━━━━━━━━━━━━━  
+
+👑 𝘽𝙤𝙩 𝙊𝙬𝙣𝙚𝙧 𝙁𝘽:  
+👉 Facebook ID link in bio  
+
+━━━━━━━━━━━━━━━  
+
+💖 Thanks for using the bot  
+🔥 Powered by Ajmaul
+`;
+
+  return api.sendMessage(msg, event.threadID, event.messageID);
+};
