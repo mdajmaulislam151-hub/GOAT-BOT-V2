@@ -5,8 +5,8 @@ const path = require("path");
 module.exports = {
   config: {
     name: "pp",
-    version: "2.0.0",
-    author: "Ajmaul",
+    version: "3.0.0",
+    author: "Ajmaul FIXED",
     countDown: 3,
     role: 0,
     shortDescription: "Facebook profile picture 📸",
@@ -20,7 +20,7 @@ module.exports = {
   onStart: async function ({ api, event, args, usersData }) {
     try {
       const cacheDir = path.join(__dirname, "cache");
-      const filePath = path.join(cacheDir, "pp.png");
+      const filePath = path.join(cacheDir, `${event.senderID}_pp.jpg`);
 
       if (!fs.existsSync(cacheDir)) {
         fs.mkdirSync(cacheDir);
@@ -43,16 +43,21 @@ module.exports = {
 
       const name = await usersData.getName(uid);
 
-      const url = `https://graph.facebook.com/${uid}/picture?width=2048&height=2048`;
+      // 🔥 FIXED URL (redirect handle)
+      const url = `https://graph.facebook.com/${uid}/picture?width=512&height=512&redirect=false`;
 
-      // 🔥 important fix এখানে
-      const res = await axios.get(url, { responseType: "arraybuffer" });
+      const res = await axios.get(url);
 
-      fs.writeFileSync(filePath, Buffer.from(res.data, "utf-8"));
-
-      if (!fs.existsSync(filePath)) {
-        return api.sendMessage("❌ ছবি লোড হয় নাই!", event.threadID, event.messageID);
+      if (!res.data || !res.data.data || !res.data.data.url) {
+        return api.sendMessage("❌ Profile pic পাওয়া যায়নি!", event.threadID, event.messageID);
       }
+
+      const imgUrl = res.data.data.url;
+
+      // image download
+      const img = await axios.get(imgUrl, { responseType: "arraybuffer" });
+
+      fs.writeFileSync(filePath, Buffer.from(img.data));
 
       return api.sendMessage(
         {
