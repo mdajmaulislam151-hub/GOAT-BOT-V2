@@ -5,7 +5,7 @@ module.exports = {
     name: "buzz",
     version: "3.2.0",
     role: 2,
-    author: "ALVI-BOSS",
+    author: "Ajmaul",
     description: "১০০+ এজমাউল স্টাইল ক্যাপশন পাঠায়",
     category: "fun",
     usages: "@mention",
