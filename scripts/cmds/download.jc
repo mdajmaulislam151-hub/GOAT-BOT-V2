@@ -1,0 +1,48 @@
+const { exec } = require("child_process");
+const fs = require("fs");
+const path = require("path");
+
+module.exports = async function(senderId, messageText, sendText, sendVideo) {
+
+  if (!messageText.includes("http")) {
+    return sendText(senderId, "📎 Video link dao (TT / FB / YT)");
+  }
+
+  try {
+    const fileName = `video_${Date.now()}.%(ext)s`;
+    const filePath = path.join(__dirname, fileName);
+
+    // better yt-dlp command (auto best format)
+    const command = `yt-dlp -f "bestvideo+bestaudio/best" -o "${filePath}" "${messageText}"`;
+
+    exec(command, async (error, stdout, stderr) => {
+
+      if (error) {
+        console.log(stderr);
+        return sendText(senderId, "❌ Download korte problem hocche!");
+      }
+
+      // find downloaded file (real extension)
+      const files = fs.readdirSync(__dirname)
+        .filter(f => f.startsWith("video_"));
+
+      if (files.length === 0) {
+        return sendText(senderId, "❌ Video paowa jay nai!");
+      }
+
+      const finalFile = path.join(__dirname, files[0]);
+
+      // ⚠️ IMPORTANT: যদি তোমার sendVideo URL চায়
+      // তাহলে আগে upload system লাগবে (VPS/public link)
+      await sendVideo(senderId, finalFile);
+
+      // delete after send
+      fs.unlinkSync(finalFile);
+    });
+
+  } catch (err) {
+    console.log(err);
+    sendText(senderId, "❌ Error hoise!");
+  }
+
+};
