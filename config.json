@@ -26,14 +26,14 @@
   "reactUnsend": {
     "enable": true,
     "onlyAdmin": true,
-    "emojis": ["😡", "🤬"],
+    "emojis": ["🖕", "😢"],
     "notes": "If enable = true, bot will unsend any message reacted with these emojis. If onlyAdmin = true, only adminBot IDs can trigger it."
   },
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "100065116972569",
-      "100001609058878"
+      "61555620992979",
+      ""
     ],
     "notes": "If enabled, only IDs in whiteListIds can use the bot."
   },
